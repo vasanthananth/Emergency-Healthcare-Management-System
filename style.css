@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900;&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'spartan',sans-serif;
+    /* background-color:#2596be; */
+
+}
+/* body{
+    background-color:#2596be;
+} */
+.section-p1{
+    padding: 40px 80px;
+}
+
+.section-p2{
+    padding: 10px 80px;
+}
+
+
+
+.dash{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 500px;
+    /* margin-top: 10px; */
+    height: 60px;
+    background: #e3e6f3;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+    position: sticky;
+    top: 0;
+    left: 0;    
+    
+}
+
+.dash h4{
+        font-size: 25px;
+        margin: 0;
+        padding: 0;
+        font-weight: 600;
+}
+
+#count{
+    
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#count .count-main{
+    border: 2px solid #e1e1e1;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+    border-radius: 15px;
+
+  
+    
+    
+}
+
+#count .counter{
+    border: 1px solid #e1e1e1;
+    padding: 15px 15px;
+    border-radius: 15px;
+    text-align: center;
+    width: 192px;
+    
+}
+
+#count .counter:hover{
+    background: #e3e6f3;
+}
+
+#count .number span{
+    font-weight: 600;
+    font-size: 25px;
+}
+#count .counter h4{
+    font-weight: 900;
+}
+#allocation{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#allocation .table{
+    margin-top: 30px;
+}
+
+#allocation h4{
+        font-size: 25px;
+        margin: 0;
+        padding: 0;
+        font-weight: 600;
+    }
+#allocation .table button{
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 28px;
+    color:black;
+    background-color:#e3e6f3;
+    cursor: pointer;
+    border: 1px solid white;
+    outline: none;
+    transition: 0.2s
+    
+
+} 
+#allocation .table button:hover{
+    background-color:#a4a4a5;
+    color: white    ;
+}  
+
+#allocation .table tr{
+    
+    text-align: center;
+    margin: auto;
+}
+
+
+/* Pateint database  */
+#header{
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 5px;
+    background-color: #eeeeee;
+    margin: 0px;
+}
+
+
+#header .right span{
+	padding-left: 20px;
+}
+#header .right span a{
+	text-decoration: none;
+	color: black;
+}
+#header h4{
+	margin: 0;
+	font-weight: 600;
+	font-size: 20px;
+}
+#graph{
+    margin-top: 20px;
+}
+#graph .main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#graph .inner{
+    height:70px;
+    display: flex;
+    align-items: center;
+    
+}
+
+#graph .inner span{
+
+    line-height: 20px;
+    background-color: #eeeeee;
+    border: 1px solid #eeeeee;
+    
+    padding: 15px 10px;
+    border-radius: 5px;
+    margin: 0px 20px;
+
+}
+#graph .inner-2 span{
+
+    line-height: 20px;
+    background-color: #eeeeee;
+    border: 1px solid #eeeeee;
+    
+    padding: 15px 10px;
+    border-radius: 5px;
+    margin: 0px 20px;
+
+}
+
+#graph .inner-graph{
+    margin-top: 20px;
+    border: 1px solid black;
+    height: 250px;
+    
+    
+}
+
+#graph .inner-graph img{
+  height: 100%;
+  width: 50%;
+  
+}
+
